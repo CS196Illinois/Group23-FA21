@@ -1,8 +1,8 @@
-# Group TEAM_NUMBER
+# Group 23
 Group Name: TEAM_NAME
 
 [MVP Link](http://cs196.cs.illinois.edu)
 
-Team Members: STUDENTS_NETIDS
+Team Members: mphilar2, joywan2, jerry4, jmho3, rajj3
 
-Project Manager: PM_NETID
+Project Manager: justink6
