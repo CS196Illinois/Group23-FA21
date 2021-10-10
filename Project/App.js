@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1> Zing </h1>
+        <h2> test run </h2>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           CS196 App
