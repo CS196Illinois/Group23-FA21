@@ -14,7 +14,7 @@ class Messages {
         //Change name of database here if necessary
         const words = ['shit', 'fuck', 'bitch', 'hell', 'bastard', 'dick'];
         
-        if (words.includes(message.toString())) {
+        if (words.includes(message.toString().toLowerCase())) {
             return;
         }
          
