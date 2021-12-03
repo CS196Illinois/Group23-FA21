@@ -57,22 +57,21 @@ class App extends Component {
   render() {
     return (
       <Container fluid className="centered">
-        <Navbar dark color="dark">
-          <NavbarBrand href="/">Zing</NavbarBrand>
+        <Navbar style={{backgroundColor: '#e3f2fd'}} light color="faded">
+          <NavbarBrand className="navbar-brand" href="/">Zing</NavbarBrand>
         </Navbar>
         <Row>
-          <Col>
-            
+          <Col style={{paddingBottom: '100px', paddingTop:'50px'}}>
               <h1 className="display-3">Make someone's day!</h1>
               <p className="lead">Inspire, motivate, inspirit!</p>
-              <InputGroup>
+              <InputGroup size="lg">
                 <Input 
                   placeholder="Insert message here..."
                   value={this.state.newMsgText}
                   onChange={this.handleInputChange}
                 />
                 
-                  <Button color="primary" onClick={this.handleAddMessage}>Add Zing</Button>
+                  <Button style={{backgroundColor: '#e3f2fd'}} color="secondary" outline onClick={this.handleAddMessage}>Add Zing</Button>
                 
                 
               </InputGroup>
